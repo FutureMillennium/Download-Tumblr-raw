@@ -17,7 +17,7 @@ function DownloadTumblrRaw(e, tab) {
 }
 
 chrome.contextMenus.create({
-	title: "Download raw",
+	title: "Download raw image",
 	contexts: ['image'],
 	onclick: DownloadTumblrRaw,
 	documentUrlPatterns: ['*://*.tumblr.com/*'],

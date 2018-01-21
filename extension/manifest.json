@@ -3,7 +3,12 @@
 	"name": "Download Tumblr raw",
 	"version": "1.0",
 
-	"description": "Right click and download Tumblr raw images in one click.",
+	"description": "One click Tumblr “raw” (full resolution) image download from the context menu.",
+	"icons": {
+		"16": "icon-16.png",
+		"48": "icon-48.png",
+		"128": "icon-128.png"
+	  },
 
 	"background": { 
 		"scripts": ["background.js"]
