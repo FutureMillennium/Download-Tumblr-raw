@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Download Tumblr raw",
+	"version": "1.0",
+
+	"description": "Right click and download Tumblr raw images in one click.",
+
+	"background": { 
+		"scripts": ["background.js"]
+	},
+
+	"permissions": [
+		"downloads",
+		"contextMenus"
+	]
+}
