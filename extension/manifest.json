@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Download Tumblr raw images",
-	"version": "1.0.1",
+	"version": "1.0.2",
 
 	"description": "One click Tumblr “raw” (full resolution) image download from the context menu.",
 	"icons": {
