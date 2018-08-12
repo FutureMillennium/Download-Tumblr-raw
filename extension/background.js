@@ -3,13 +3,13 @@
 function DownloadTumblrRaw(e, tab) {
 	var url = e.srcUrl;
 
-	url = url.replace(/_(\d+)\./, '_raw.');
+	url = url.replace(/_(\d+)\./, '_1280.');
 
-	var i = url.indexOf('.tumblr.com/');
+	/*var i = url.indexOf('.tumblr.com/');
 
 	if (i !== -1) {
 		url = 'http://data' + url.substr(i);
-	}
+	}*/
 
 	chrome.downloads.download({
 		url: url
