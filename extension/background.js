@@ -1,5 +1,11 @@
 'use strict';
 
+function DownloadImage(e, tab) {
+	chrome.downloads.download({
+		url: e.srcUrl
+	});
+}
+
 function DownloadTumblrRaw(e, tab) {
 	var url = e.srcUrl;
 
@@ -17,8 +23,8 @@ function DownloadTumblrRaw(e, tab) {
 }
 
 chrome.contextMenus.create({
-	title: "Download raw image",
+	title: "Download image",
 	contexts: ['image'],
-	onclick: DownloadTumblrRaw,
-	targetUrlPatterns: ['*://*.tumblr.com/*'],
+	onclick: DownloadImage,
+	//targetUrlPatterns: ['*'],
 });

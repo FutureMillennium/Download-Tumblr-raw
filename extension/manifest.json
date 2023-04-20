@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
-	"name": "Download Tumblr images",
-	"version": "1.1.0",
+	"name": "Download Image",
+	"version": "1.1.1",
 
-	"description": "One click Tumblr large resolution image download from the context menu.",
+	"description": "One click image download from the context menu.",
 	"icons": {
 		"16": "icon-16.png",
 		"48": "icon-48.png",
